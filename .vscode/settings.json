@@ -1,5 +1,6 @@
 {
-    "cSpell.words": [
-        "pdfx"
-    ]
+  "cSpell.words": [
+    "pdfx"
+  ],
+  "dart.flutterSdkPath": ".fvm/versions/3.24.4"
 }

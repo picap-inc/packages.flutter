@@ -4,7 +4,8 @@ version: 1.0.0
 publish_to: 'none'
 
 environment:
-  sdk: '>=2.12.0 <4.0.0'
+  sdk: ^3.5.0
+  flutter: ^3.24.4
 
 dependencies:
   flutter:
@@ -12,15 +13,15 @@ dependencies:
   pdfx:
     path: ../
   internet_file: ^1.2.0
-  universal_platform: ^1.0.0+1
-  performance: ^0.1.0+1
+  universal_platform: ^1.1.0
+  performance: ^0.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   integration_test:
     sdk: flutter
-  flutter_lints: ^2.0.2
+  flutter_lints: ^5.0.0
 
 flutter:
   uses-material-design: true
